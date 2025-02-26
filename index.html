@@ -12,7 +12,6 @@
     <!-- Hero Section -->
     <section id="hero">
         <div class="hero-content">
-
             <img src="https://github.com/Johnmahith/My_Portfolio/blob/master/passport%20size.png?raw=true" alt="John Mahith Pagi" class="profile-pic">
             <h1>Transforming Data into Actionable Insights</h1>
             <p>Experienced SQL/BI Developer & Data Scientist</p>
@@ -33,6 +32,7 @@
         <div class="container">
             <h2>My Skills</h2>
             <div class="skills-list">
+                <!-- Existing Skills -->
                 <div class="skill">
                     <h3>SQL Server</h3>
                     <div class="skill-bar" style="width: 90%;"></div>
@@ -65,18 +65,20 @@
                     <h3>Docker & Kubernetes</h3>
                     <div class="skill-bar" style="width: 60%;"></div>
                 </div>
+
+                <!-- New Skills -->
                 <div class="skill">
-                     <h3>MySQL</h3>
-                     <div class="skill-bar" style="width: 85%;"></div>
+                    <h3>MySQL</h3>
+                    <div class="skill-bar" style="width: 85%;"></div>
                 </div>
-               <div class="skill">
+                <div class="skill">
                     <h3>NoSQL Databases</h3>
                     <div class="skill-bar" style="width: 75%;"></div>
-               </div>
-               <div class="skill">
+                </div>
+                <div class="skill">
                     <h3>JavaScript Frameworks (React, Angular)</h3>
                     <div class="skill-bar" style="width: 80%;"></div>
-               </div>
+                </div>
             </div>
         </div>
     </section>
@@ -122,10 +124,10 @@
     <section id="contact">
         <div class="container">
             <h2>Contact Me</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
+            <form action="https://formspree.io/f/mnqkojqk" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
